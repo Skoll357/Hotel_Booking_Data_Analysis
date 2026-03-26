@@ -38,7 +38,15 @@ Developed a custom "Crown Score" (Volume×Success Rate×ADR) to rank the most va
 **City Hotel**: Implement a tiered deposit policy for bookings over 90 days and audit "Contract" segments which currently underperform in stability.
 **Resort Hotel**: Focus on "Early Bird" incentives to lock in demand early and reduce reliance on last-minute price slashing. Enhance "Family" engagement to reduce their 36% cancellation risk.
 
+# Project Structure
+**data:**Stores the original dataset and cleaned intermediate products.
+**sql:**Includes the complete SQL chain from cleaning and diagnostics to revenue analysis.
+**scripts:**Python scripts for visualization generation.
+**visuals:**Exported statistical charts (PNG/CSV).
+**docs:**Final strategic analysis report and explanatory documents.
+
 # 🚀 How to Run
 1. Clone this repository.
 2. Load the .csv file into a SQLite database using DB Browser for SQLite.
 3. Run the scripts sequentially to reproduce the analysis.
+4. The database address in the Python code is an absolute address; please change it manually at runtime.
