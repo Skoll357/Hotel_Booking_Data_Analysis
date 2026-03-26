@@ -40,10 +40,10 @@ Developed a custom "Crown Score" (Volume×Success Rate×ADR) to rank the most va
 
 # Project Structure
 * **data**: Stores the original dataset and cleaned intermediate products.
-* **sql**: Includes the complete SQL chain from cleaning and diagnostics to revenue analysis.
-* **scripts**: Python scripts for visualization generation.
+* **sql_code**: Includes the complete SQL chain from cleaning and diagnostics to revenue analysis.
+* **visualization_code**: Python scripts for visualization generation.
 * **visuals**: Exported statistical charts (PNG/CSV).
-* **docs**: Final strategic analysis report and explanatory documents.
+* **scripts**: Final strategic analysis report and explanatory documents.
 
 # 🚀 How to Run
 1. Clone this repository.
