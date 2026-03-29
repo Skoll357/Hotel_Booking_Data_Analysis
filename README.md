@@ -68,6 +68,6 @@ Hotel-Booking-Analysis/
 ├── data/                       # Original dataset and cleaned DB files
 ├── sql_code/                   # SQL scripts (Cleaning, Diagnosis, Revenue)
 ├── visualization_code/         # Python scripts for generating charts
-├── visuals/                    # Exported charts (PNG) and data snippets
+├── output/                     # Exported charts (PNG) and data snippets
 ├── scripts/                    # Final Strategic Analysis Report (PDF/Word)
 └── README.md                   # Project overview and documentation
